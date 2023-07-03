@@ -1,7 +1,7 @@
 import React from 'react'
 import style from '../../../style/content.module.css';
 
-export default function page() {
+export default function Content() {
   return (
     <div>
       <div className={style.all_inf} id="Home">
