@@ -37,8 +37,8 @@ export default function page () {
         <div className="description">
           <p className="card-descripsion">An ecommerce website can help you grow your business online and reach new customers. It can also help you improve your customer service, increase your sales, and reduce your operational costs. If you are looking for a way to sell your products or services online, an ecommerce website is a great option for you.</p>
           <div className="card-btns">
-          <a className="btn" href="http://ecommerce-product-page-main.surge.sh/" target="_blank">Live</a>
-          <a className="btn" href="https://github.com/Manmeno/ecommerce-product-page-main/tree/main/ecommerce-product-page-main" target="_blank">Code</a>  
+          <a className="btn" href="https://ecommerce-product-page-main-dusky.vercel.app/" target="_blank">Live</a>
+          <a className="btn" href="https://github.com/Manmeno/ecommerce-product-page-main" target="_blank">Code</a>  
           </div>  
         </div>
       </div>

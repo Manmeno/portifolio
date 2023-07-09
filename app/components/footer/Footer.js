@@ -3,7 +3,7 @@ import style from '../../../style/content.module.css'
 export default function page() {
   return (
     <div>
-      <footer className={style.footer}>
+      <footer className={style.footer} id="Contact">
         <div className={style.p}>
           <p>Copyright © 2023. All rights are reserved</p>
         </div>
