@@ -1,12 +1,13 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
   text-decoration: none;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.contanier{
+.contanier {
   width: 100%;
   display: flex;
   align-items: center;
@@ -14,59 +15,59 @@
   padding: 15px;
   box-shadow: 0 4px 5px -5px rgb(50, 50, 50);
 }
-.h1{
+.h1 {
   padding-left: 80px;
 }
-.btns a{
+.btns a {
   padding: 7px;
   font-size: medium;
   color: #000;
   font-weight: bold;
   cursor: pointer;
 }
-.all-inf{
+.all-inf {
   text-align: center;
   display: flex;
   margin: 7rem;
   justify-content: center;
   align-items: center;
 }
-.inf{
+.inf {
   text-align: left;
   display: block;
 }
-.title{
+.title {
   font-size: x-large;
   font-weight: bold;
 }
-.about-title{
+.about-title {
   color: rgb(55, 55, 241);
 }
-.card{
+.card {
   display: flex;
   margin: 3rem 0;
   box-shadow: 0 4px 5px -5px rgb(50, 50, 50);
 }
-.links{
+.links {
   margin: 3rem;
   display: flex;
 }
-.icon{
+.icon {
   width: 55px;
   margin: 0 1rem;
 }
-.email{
+.email {
   margin: 0 3rem;
   padding: 1rem;
   display: flex;
   align-items: center;
   box-shadow: 0 4px 5px -5px rgb(50, 50, 50);
 }
-.text{
+.text {
   color: #000;
   opacity: 0.7;
 }
-.card-btns{
+.card-btns {
   display: flex;
   justify-content: center;
   padding: 7px;
@@ -75,13 +76,13 @@
   font-weight: bold;
   cursor: pointer;
 }
-.description{
+.description {
   margin: 3rem 2rem;
 }
-.card-descripsion{
+.card-descripsion {
   margin: 3rem 0;
 }
-.btn{
+.btn {
   box-shadow: 0 4px 5px -5px rgb(50, 50, 50);
   margin: 0 5rem;
   padding: 5px;
@@ -90,118 +91,120 @@
   width: 4rem;
   border-radius: 5px;
 }
-.btn:hover{
+.btn:hover {
   color: #4949ff;
 }
-.image-desktop{
+.image-desktop {
   display: flex;
   width: 600px;
   height: 400px;
 }
-.image-mobile{
+.image-mobile {
   display: none;
 }
-@media (max-width: 320px){
-  body{
+@media (max-width: 320px) {
+  body {
     margin: 1rem;
   }
-  .btns a, .image-desktop {
+  .btns a,
+  .image-desktop {
     display: none;
   }
-  .all-inf{
+  .all-inf {
     display: block;
     margin: 1rem;
   }
-  .card{
+  .card {
     display: block;
   }
-  .description{
+  .description {
     margin: 1rem;
   }
-  .image-mobile{
+  .image-mobile {
     display: flex;
     height: 250px;
     width: 280px;
   }
-  .btn{
+  .btn {
     margin: 0 1rem;
   }
-  .links{
+  .links {
     display: block;
     margin: 1rem;
   }
-  .email{
+  .email {
     margin: 1rem;
   }
 }
-@media (max-width: 600px){
-  .all-inf{
+@media (max-width: 600px) {
+  .all-inf {
     display: block;
     margin: 2rem 1rem;
   }
-  .title{
+  .title {
     margin: 0 1rem;
   }
-  .about-inf{
+  .about-inf {
     margin: 0;
   }
-  .image-mobile{
+  .image-mobile {
     display: flex;
     height: 250px;
     width: 280px;
   }
-  .card{
+  .card {
     display: block;
   }
-  .btns a, .image-desktop{
+  .btns a,
+  .image-desktop {
     display: none;
   }
-  .links{
+  .links {
     display: block;
     margin: 1rem;
   }
-  .email{
+  .email {
     margin: 1rem;
   }
-  .description{
+  .description {
     margin: 1rem;
   }
 }
-@media (min-width: 600px){
-  .all-inf{
+@media (min-width: 600px) {
+  .all-inf {
     display: block;
     margin: 2rem 1rem;
   }
-  .about-inf{
+  .about-inf {
     margin: 0;
   }
-  .image-mobile{
+  .image-mobile {
     display: flex;
     width: 600px;
     height: 400px;
   }
-  .card{
+  .card {
     display: block;
   }
-  .image-desktop{
+  .image-desktop {
     display: none;
   }
-  .links{
+  .links {
     display: block;
     margin: 1rem;
   }
-  .title{
+  .title {
     margin: 0 1rem;
   }
-  .email{
+  .email {
     margin: 1rem;
   }
-  .description{
+  .description {
     margin: 1rem;
   }
 }
-@media (min-width: 1024px){
-  .contanier{
+@media (min-width: 1024px) {
+  .contanier {
     width: 100%;
     display: flex;
     align-items: center;
@@ -209,59 +212,59 @@
     padding: 15px;
     box-shadow: 0 4px 5px -5px rgb(50, 50, 50);
   }
-  .h1{
+  .h1 {
     padding-left: 80px;
   }
-  .btns a{
+  .btns a {
     padding: 7px;
     font-size: medium;
     color: #000;
     font-weight: bold;
     cursor: pointer;
   }
-  .all-inf{
+  .all-inf {
     text-align: center;
     display: flex;
     margin: 7rem 0;
     justify-content: center;
     align-items: center;
   }
-  .inf{
+  .inf {
     text-align: left;
     display: block;
   }
-  .title{
+  .title {
     font-size: x-large;
     font-weight: bold;
   }
-  .about-title{
+  .about-title {
     color: rgb(55, 55, 241);
   }
-  .card{
+  .card {
     display: flex;
     margin: 3rem 1rem;
     box-shadow: 0 4px 5px -5px rgb(50, 50, 50);
   }
-  .links{
+  .links {
     margin: 3rem;
     display: flex;
   }
-  .icon{
+  .icon {
     width: 55px;
     margin: 0 1rem;
   }
-  .email{
+  .email {
     margin: 0 3rem;
     padding: 1rem;
     display: flex;
     align-items: center;
     box-shadow: 0 4px 5px -5px rgb(50, 50, 50);
   }
-  .text{
+  .text {
     color: #000;
     opacity: 0.7;
   }
-  .card-btns{
+  .card-btns {
     display: flex;
     justify-content: center;
     padding: 7px;
@@ -270,13 +273,13 @@
     font-weight: bold;
     cursor: pointer;
   }
-  .description{
+  .description {
     margin: 3rem 2rem;
   }
-  .card-descripsion{
+  .card-descripsion {
     margin: 3rem 0;
   }
-  .btn{
+  .btn {
     box-shadow: 0 4px 5px -5px rgb(50, 50, 50);
     margin: 0 5rem;
     padding: 5px;
@@ -285,15 +288,15 @@
     width: 4rem;
     border-radius: 5px;
   }
-  .btn:hover{
+  .btn:hover {
     color: #4949ff;
   }
-  .image-desktop{
+  .image-desktop {
     display: flex;
     width: 600px;
     height: 400px;
   }
-  .image-mobile{
+  .image-mobile {
     display: none;
   }
 }
